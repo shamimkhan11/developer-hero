@@ -5,7 +5,7 @@ body {
 
 h1 {
     font-size: 50px;
-    color: orangered;
+    color: rgb(39, 16, 248);
 }
 
 .orange-color {
@@ -13,8 +13,8 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
-    color: blue;
+    font-size: 40px;
+    color: rgb(255, 0, 106);
 }
 
 img {
@@ -22,18 +22,22 @@ img {
     height: 400px;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 200px;
+
 }
 
 .half-width {
     width: 50%;
     padding-left: 2%;
+
 }
 
 .half-width img {
     width: 80%;
+    padding: 2%;
+
 
 }
 
@@ -55,4 +59,41 @@ section {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position: left;
+}
+
+.divhalf-width {
+    width: 50%;
+}
+
+.my-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px yellow;
+    border-radius: 10px;
+
+}
+
+.experience-area {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-top: 7px solid coral;
+    border-right: 7px solid blue;
+    border-left: 7px solid rgb(7, 7, 7);
+
+
+}
+
+#khan-miya {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
